@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slider-demo</title>
+    <link rel="stylesheet" href="slider.css">
+    <style>
+        body {margin:0}
+        ol,ul {
+        list-style:none;
+        padding:0;
+        margin:0;
+        }
+        .carousel-item {
+            background: #333;
+            font-size: 40px;
+            color: #fff;
+            text-align: center;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div  id="banner">            
+        <div class="carousel" >
+            <ul class="carousel-list">
+                <li class="carousel-item" >1</li>
+                <li class="carousel-item" >2</li>
+                <li class="carousel-item" >3</li>                         
+            </ul>
+        </div>  
+        <ol class="carousel-indicators">
+            <li class="carousel-generic active"></li>
+            <li class="carousel-generic"></li>
+            <li class="carousel-generic"></li>           
+        </ol>         
+    </div>
+    <script src="slider.js" ></script>
+    <script>
+        new Slider();
+    </script>
+    
+</body>
+</html>
